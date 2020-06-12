@@ -1,0 +1,376 @@
+body {
+    font-family: 'Roboto',  sans-serif;
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    width: 1600px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+}
+
+.div-header {
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    height: 80px;
+    left: 1px;
+    top: -5px;
+    background: #FFFFFF;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    width: 153px;
+    height: 31px;
+    margin-left: 215px;
+    margin-top: 20px;
+}
+
+.span-logo {
+    
+}
+
+.span-logo,
+.logo:hover,
+.logo:focus,
+.nav-link:hover,
+.mail-link:hover,
+.nav-link:focus,
+.mail-link:focus {
+    color: #2196f3;
+}
+
+.div-nav {
+    margin-left: 85px;
+    margin-right: auto;
+}
+
+.div-nav-ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+    padding: 0;
+}
+
+.div-nav-li:not(:last-child) {
+    margin-right: 50px;
+}
+
+.div-mail {
+    margin-right: 215px;
+}
+
+.div-mail-ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+}
+
+.div-mail-li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.nav-link {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.nav-link-active {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196f3;
+}
+
+.mail-link {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+    height: 600px;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 452px;
+    margin-top: 200px;
+    margin-right: 452px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.button {
+    font-family: 'Roboto',  sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: #2196F3;
+}
+
+.button:hover,
+.button:focus {
+    background: #188ce8;
+}
+
+.invisible-title {
+    color: #ffffff;
+}
+
+.feature-antenna,
+.feature-clock,
+.feature-diagram,
+.feature-astronaut {
+    color: #212121;
+    width: 70px;
+    height: 70px;
+}
+
+.feature-title {
+    color: #212121;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.feature-text {
+    color: #757575;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.doing-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.doing-text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.team-title {
+    color: #212121;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+
+.team-name {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.team-position {
+    color: #757575;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.social-network {
+    color: #afb1b8;
+    width: 44px;
+    height: 44px;
+}
+
+.our-clients {
+    color: #212121;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+
+.footer {
+    background: #2f303a;
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+
+.logo-footer-part,
+.logo-footer:hover,
+.logo-footer:focus,
+.footer-address-contacts:hover,
+.footer-address-contacts:focus {
+    color: #2196f3;
+}
+
+.footer-address {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+  
+.footer-address-contacts {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.footer-social {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+    
+.footer-email-title {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-email {
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background: #2f303a;
+}
+
+.footer-button {
+    background: #2196f3;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
+
+.footer-signature {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.portfolio-title {
+    color: #FFFFFF;
+}
+
+.portfolio-div {
+    width: 100px;
+    background-color: #F5F4FA;
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-div:hover,
+.portfolio-div:focus {
+    background-color: #2196F3;
+    color: white;
+}
+
+.project-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.project-value {
+    color: #757575;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.project-name {
+    color: #212121;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+
+
