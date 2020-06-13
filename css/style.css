@@ -228,12 +228,45 @@ ul {
     margin-top: 10px;
 }
 
+.doing-div {
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    height: 386px;
+    margin-top: 188px;
+    margin-right: 215px;
+    margin-left: 215px;
+}
+
 .doing-title {
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
+    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+}
+
+.doing-ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.doing-li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.doing-img {
+    width: 370px;
+    height: 294px;
+}
+
+.doing-background {
+    display: inline-block;
+    background: rgba(47, 48, 58, 0.8);
+    border-radius: 0px;
+    width: 370px;
+    height: 70px;
 }
 
 .doing-text {
@@ -241,13 +274,22 @@ ul {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
+    text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-top: 00px;
+    margin-bottom: 00px;
     
 }
 
 .team {
     background: #F5F4FA;
+    width: 1600px;
+    height: 702px;
+    margin-top: 94px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 94px;
 }
 
 .team-title {
@@ -256,6 +298,24 @@ ul {
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 94px;
+}
+
+.team-ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 215px;
+    margin-left: 215px;
+}
+
+.team-li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.team-li {
+    background-color: #ffffff;
 }
 
 .team-name {
@@ -264,6 +324,8 @@ ul {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .team-position {
@@ -272,6 +334,20 @@ ul {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.team-social {
+    display: flex;
+    flex-direction: row;
+    margin-right: 32px;
+    margin-bottom: 24px;
+    margin-left: 32px;
+}
+
+.team-social-network:not(:last-child) {
+    margin-right: 10px;
 }
 
 .social-network {
@@ -420,6 +496,4 @@ ul {
     line-height: 36px;
     letter-spacing: 0.06em;
 }
-
-
 
