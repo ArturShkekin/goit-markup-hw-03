@@ -356,12 +356,38 @@ ul {
     height: 44px;
 }
 
-.our-clients {
+.our-div {
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    height: 182px;
+    margin-top: 94px;
+    margin-right: 215px;
+    margin-left: 215px;
+}
+
+.our-title {
     color: #212121;
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.our-ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.our-li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-img {
+    width: 170px;
+    height: 90px;
 }
 
 .footer {
