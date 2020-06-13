@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Roboto',  sans-serif;
     background: #FFFFFF;
@@ -143,7 +153,6 @@ ul {
     margin-bottom: 200px;
     background: #2196F3;
     text-align: center;
-    align-items: center;
     align-self: center;
     align-items: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -155,8 +164,36 @@ ul {
     background: #188ce8;
 }
 
-.invisible-title {
-    color: #ffffff;
+.is-hidden {
+   display: none;
+}
+
+.feature-div {
+    display: flex;
+    width: 1170px;
+    height: 250px;
+    margin-top: 94px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.feature-ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.feature-li:not(:last-child) {
+    width: 270px;
+    height: 250px;
+    margin-right: 30px;
+}
+
+.feature-img {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 
 .feature-antenna,
@@ -166,6 +203,10 @@ ul {
     color: #212121;
     width: 70px;
     height: 70px;
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+    margin-left: 100px;
 }
 
 .feature-title {
@@ -175,6 +216,7 @@ ul {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-top: 30px;
 }
 
 .feature-text {
@@ -183,6 +225,7 @@ ul {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    margin-top: 10px;
 }
 
 .doing-title {
