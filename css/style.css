@@ -14,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
     width: 1600px;
+
 }
 
 a {
@@ -229,8 +230,8 @@ ul {
 }
 
 .doing-div {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    /*flex-direction: column;*/
     width: 1170px;
     height: 386px;
     margin-top: 188px;
@@ -249,20 +250,14 @@ ul {
 
 .doing-ul {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 .doing-li:not(:last-child) {
     margin-right: 30px;
 }
 
-.doing-img {
-    width: 370px;
-    height: 294px;
-}
-
 .doing-background {
-    display: inline-block;
     background: rgba(47, 48, 58, 0.8);
     border-radius: 0px;
     width: 370px;
@@ -277,18 +272,14 @@ ul {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 00px;
-    margin-bottom: 00px;
-    
+    padding-top: 27px;
+    padding-bottom: 27px;
 }
 
 .team {
     background: #F5F4FA;
     width: 1600px;
     height: 702px;
-    margin-top: 94px;
-    display: flex;
-    flex-direction: column;
     margin-top: 94px;
 }
 
@@ -299,15 +290,17 @@ ul {
     line-height: 42px;
     letter-spacing: 0.03em;
     text-align: center;
-    margin-top: 94px;
+    padding-top: 94px;
 }
 
 .team-ul {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     margin-top: 50px;
     margin-right: 215px;
     margin-left: 215px;
+    width: 1170px;
+    height: 422px;
 }
 
 .team-li:not(:last-child) {
@@ -356,8 +349,12 @@ ul {
     height: 44px;
 }
 
+.clients {
+    display: block;
+}
+
 .our-div {
-    display: flex;
+    display: block;
     flex-direction: column;
     width: 1170px;
     height: 182px;
@@ -392,6 +389,21 @@ ul {
 
 .footer {
     background: #2f303a;
+    width: 1600px;
+    height: 253px;
+    display: block;
+}
+
+.div-footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.div-address {
+    display: block;
+    margin-top: 48px;
+    margin-left: 214px;
 }
 
 .logo-footer {
@@ -412,12 +424,17 @@ ul {
 }
 
 .footer-address {
+    display: flex;
+    flex-direction: column;
     color: #FFFFFF;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    margin-top: 10px;
+    width: 230px;
+    height: 80px;
 }
   
 .footer-address-contacts {
@@ -430,12 +447,38 @@ ul {
 }
 
 .footer-social {
+    display: flex;
+    flex-direction: column;
+    width: 205px;
+    height: 80px;
+    margin-left: 69px;
+    margin-top: 55px;
+}
+
+.footer-social-title {
     color: #FFFFFF;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+   
+}
+
+.footer-li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-img {
+    background: #2f303a;
 }
     
 .footer-email-title {
@@ -445,6 +488,14 @@ ul {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.footer-email-button {
+    width: 570px;
+    height: 87px;
+    margin-left: 94px;
+    margin-top: 55;
+    margin-right: 215px;
 }
 
 .footer-email {
@@ -458,6 +509,7 @@ ul {
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background: #2f303a;
+    
 }
 
 .footer-button {
@@ -472,29 +524,53 @@ ul {
 }
 
 .footer-signature {
+    display: block;
+    text-align: center;
     font-weight: normal;
     font-size: 12px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.4);
-}
-
-.portfolio-title {
-    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20;
 }
 
 .portfolio-div {
-    width: 100px;
+    display: block;
+    width: 1170px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 93px;
+}
+
+.portfolio-ul-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.portfolio-item {
     background-color: #F5F4FA;
+    border-radius: 4px;
     color: #212121;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.03em;
+    align-items: center;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
 }
 
-.portfolio-div:hover,
-.portfolio-div:focus {
+.portfolio-li:not(:last-child) {
+    margin-right: 8px;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
     background-color: #2196F3;
     color: white;
 }
