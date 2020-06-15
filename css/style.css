@@ -32,14 +32,9 @@ ul {
     margin: 0;
 }
 
-.div-header {
+.container {
     display: flex;
     flex-direction: row;
-    width: 1600px;
-    height: 80px;
-    left: 1px;
-    top: -5px;
-    background: #FFFFFF;
 }
 
 .logo {
@@ -50,10 +45,10 @@ ul {
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #000000;
-    width: 153px;
-    height: 31px;
-    margin-left: 215px;
-    margin-top: 20px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-left: 215px;
+    margin-right: 85px;
 }
 
 .span-logo,
@@ -67,32 +62,8 @@ ul {
 }
 
 .div-nav {
-    margin-left: 85px;
+    display: flex;
     margin-right: auto;
-}
-
-.div-nav-ul {
-    display: flex;
-    flex-direction: row;
-    margin-top: 27px;
-}
-
-.div-nav-li:not(:last-child) {
-    margin-right: 50px;
-}
-
-.div-mail {
-    margin-right: 215px;
-}
-
-.div-mail-ul {
-    display: flex;
-    flex-direction: row;
-    margin-top: 27px;
-}
-
-.div-mail-li:not(:last-child) {
-    margin-right: 30px;
 }
 
 .nav-link {
@@ -103,12 +74,37 @@ ul {
     letter-spacing: 0.02em;
 }
 
+.div-nav-ul {
+    display: flex;
+    /*flex-direction: row;*/
+    padding-top: 32px;
+}
+
+.div-nav-li:not(:last-child) {
+    margin-right: 50px;
+}
+
 .nav-link-active {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #2196f3;
+}
+
+.mail-img {
+    padding-right: 10px;
+}
+
+.div-mail-ul {
+    display: flex;
+    /*flex-direction: row;*/
+    padding-top: 32px;
+    padding-right: 215px;
+}
+
+.div-mail-li:not(:last-child) {
+    margin-right: 30px;
 }
 
 .mail-link {
@@ -122,8 +118,6 @@ ul {
 .main-container {
     display: flex;
     flex-direction: column;
-    width: 1600px;
-    height: 600px;
     background: rgba(47, 48, 58, 0.8);
 }
 
