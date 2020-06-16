@@ -34,7 +34,7 @@ ul {
 
 .container {
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
 }
 
 .logo {
@@ -76,7 +76,6 @@ ul {
 
 .div-nav-ul {
     display: flex;
-    /*flex-direction: row;*/
     padding-top: 32px;
 }
 
@@ -98,7 +97,6 @@ ul {
 
 .div-mail-ul {
     display: flex;
-    /*flex-direction: row;*/
     padding-top: 32px;
     padding-right: 215px;
 }
@@ -116,8 +114,6 @@ ul {
 }
 
 .main-container {
-    display: flex;
-    flex-direction: column;
     background: rgba(47, 48, 58, 0.8);
 }
 
@@ -128,11 +124,12 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
-    margin-left: 452px;
-    margin-top: 200px;
-    margin-right: 452px;
-    margin-bottom: 30px;
     color: #FFFFFF;
+    padding-top: 200px;
+    padding-right: 452px;
+    padding-left: 452px;
+    margin: 0;
+
 }
 
 .button {
@@ -145,17 +142,18 @@ ul {
     color: #ffffff;
     width: 200px;
     height: 50px;
-    margin-left: 700px;
-    margin-right: 700px;
-    margin-bottom: 200px;
     background: #2196F3;
     text-align: center;
     align-self: center;
     align-items: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    margin-top: 30px;
+    margin-right: 700px;
+    margin-bottom: 200px;
+    margin-left: 700px;
 }
-
+   
 .button:hover,
 .button:focus {
     background: #188ce8;
@@ -167,16 +165,15 @@ ul {
 
 .feature-div {
     display: flex;
-    width: 1170px;
-    height: 250px;
-    margin-top: 94px;
-    margin-left: 215px;
-    margin-right: 215px;
+    width: 1200px;
+    padding-top: ;
 }
 
 .feature-ul {
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 
