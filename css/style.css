@@ -165,29 +165,30 @@ ul {
 
 .feature-div {
     display: flex;
-    width: 1200px;
-    padding-top: ;
+    padding-top: 94px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .feature-ul {
     display: flex;
-    /*flex-direction: row;*/
     padding-left: 15px;
     padding-right: 15px;
     
 }
 
 .feature-li:not(:last-child) {
-    width: 270px;
-    height: 250px;
+    /*width: 270px;
+    height: 250px;*/
     margin-right: 30px;
 }
 
 .feature-img {
-    width: 270px;
+    /*width: 270px;*/
     height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
+    
 }
 
 .feature-antenna,
@@ -201,6 +202,7 @@ ul {
     margin-right: 100px;
     margin-bottom: 25px;
     margin-left: 100px;
+    
 }
 
 .feature-title {
@@ -210,7 +212,8 @@ ul {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-top: 30px;
+    padding-top: 30px;
+    margin: 0;
 }
 
 .feature-text {
@@ -219,7 +222,9 @@ ul {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    margin: 0;
 }
 
 .doing-div {
