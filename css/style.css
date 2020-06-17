@@ -34,7 +34,6 @@ ul {
 
 .container {
     display: flex;
-    /*flex-direction: row;*/
 }
 
 .logo {
@@ -178,13 +177,10 @@ ul {
 }
 
 .feature-li:not(:last-child) {
-    /*width: 270px;
-    height: 250px;*/
     margin-right: 30px;
 }
 
 .feature-img {
-    /*width: 270px;*/
     height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
@@ -229,12 +225,10 @@ ul {
 
 .doing-div {
     display: block;
-    /*flex-direction: column;*/
-    width: 1170px;
-    height: 386px;
-    margin-top: 188px;
-    margin-right: 215px;
-    margin-left: 215px;
+    padding-top: 188px;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-bottom: 24px;
 }
 
 .doing-title {
@@ -244,15 +238,22 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin: 0;
+    margin-bottom: 50px;
 }
 
 .doing-ul {
     display: flex;
-    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .doing-li:not(:last-child) {
     margin-right: 30px;
+}
+
+.doing {
+    display: block;
 }
 
 .doing-background {
@@ -272,13 +273,15 @@ ul {
     color: #FFFFFF;
     padding-top: 27px;
     padding-bottom: 27px;
+    margin: 0;
 }
 
 .team {
+    display: block;
     background: #F5F4FA;
-    width: 1600px;
-    height: 702px;
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-right: 200px;
+    padding-left: 200px;
 }
 
 .team-title {
@@ -288,17 +291,12 @@ ul {
     line-height: 42px;
     letter-spacing: 0.03em;
     text-align: center;
-    padding-top: 94px;
+    margin: 0;
+    margin-bottom: 50px;
 }
 
 .team-ul {
     display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-right: 215px;
-    margin-left: 215px;
-    width: 1200px;
-    height: 422px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -319,7 +317,8 @@ ul {
     line-height: 19px;
     letter-spacing: 0.03em;
     text-align: center;
-    margin-top: 30px;
+    margin: 0;
+    padding-top: 30px;
 }
 
 .team-position {
@@ -329,15 +328,16 @@ ul {
     line-height: 19px;
     letter-spacing: 0.03em;
     text-align: center;
-    margin-top: 10px;
+    margin: 0;
+    padding-top: 10px;
 }
 
 .team-social {
     display: flex;
-    flex-direction: row;
-    margin-right: 32px;
-    margin-bottom: 24px;
-    margin-left: 32px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 24px;
 }
 
 .team-social-network:not(:last-child) {
