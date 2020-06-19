@@ -14,11 +14,11 @@ body {
     margin: 0;
     padding: 0;
     width: 1600px;
-
 }
 
 a {
     text-decoration: none;
+    margin: 0;
 }
 
 li {
@@ -30,6 +30,10 @@ li {
 ul {
     padding: 0;
     margin: 0;
+}
+
+img {
+    display: block;
 }
 
 .container {
@@ -164,7 +168,7 @@ ul {
 
 .feature-div {
     display: flex;
-    padding-top: 94px;
+    padding-top: 97px;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -173,7 +177,6 @@ ul {
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
-    
 }
 
 .feature-li:not(:last-child) {
@@ -181,6 +184,9 @@ ul {
 }
 
 .feature-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
@@ -194,10 +200,10 @@ ul {
     color: #212121;
     width: 70px;
     height: 70px;
-    margin-top: 25px;
-    margin-right: 100px;
-    margin-bottom: 25px;
-    margin-left: 100px;
+    /*padding-top: 25px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    padding-left: 100px;*/
     
 }
 
@@ -225,7 +231,7 @@ ul {
 
 .doing-div {
     display: block;
-    padding-top: 188px;
+    padding-top: 185px;
     padding-right: 200px;
     padding-left: 200px;
     margin-bottom: 24px;
@@ -299,6 +305,7 @@ ul {
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 94px;
 }
 
 .team-li:not(:last-child) {
@@ -350,18 +357,12 @@ ul {
     height: 44px;
 }
 
-.clients {
-    display: block;
-}
-
 .our-div {
     display: block;
-    flex-direction: column;
-    width: 1170px;
-    height: 182px;
-    margin-top: 94px;
-    margin-right: 215px;
-    margin-left: 215px;
+    padding-top: 94px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 94px;
 }
 
 .our-title {
@@ -371,50 +372,49 @@ ul {
     line-height: 42px;
     letter-spacing: 0.03em;
     text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
 }
 
 .our-ul {
     display: flex;
-    flex-direction: row;
-    margin-top: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
 }
 
 .our-li:not(:last-child) {
     margin-right: 30px;
 }
 
-.our-img {
-    width: 170px;
-    height: 90px;
-}
-
-.footer {
-    background: #2f303a;
-    width: 1600px;
-    height: 253px;
-    display: block;
-    margin-top: auto;
+.footer-all {
+    display: flex;
+    flex-direction: column;
 }
 
 .div-footer {
     display: flex;
-    align-items: baseline;
     justify-content: space-between;
+    align-items: baseline;
+    background: #2f303a;
+    padding-bottom: 24px;
 }
 
 .div-address {
-    display: block;
-    margin-top: 48px;
-    margin-left: 214px;
+    padding-left: 214px;
+    margin-right: 69px;
 }
 
 .logo-footer {
+    display: flex;
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
     font-weight: bold;
     font-size: 22px;
     line-height: 26px;
     letter-spacing: 0.03em;
+    padding-top: 48px;
+    
 }
 
 .logo-footer-part,
@@ -423,6 +423,10 @@ ul {
 .footer-address-contacts:hover,
 .footer-address-contacts:focus {
     color: #2196f3;
+}
+
+.logo-footer-part {
+   margin: 0;
 }
 
 .footer-address {
@@ -434,27 +438,27 @@ ul {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    margin-top: 10px;
-    width: 230px;
-    height: 80px;
+    padding-top: 10px;
+    width: 231px;
+    margin: 0;
 }
   
 .footer-address-contacts {
+    display: block;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    padding-top: 5px;
 }
 
 .footer-social {
     display: flex;
     flex-direction: column;
-    width: 205px;
-    height: 80px;
-    margin-left: 69px;
-    margin-top: 55px;
+    padding-top: 56px;
+    margin-right: 94px;
 }
 
 .footer-social-title {
@@ -464,14 +468,13 @@ ul {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding: 0;
     margin: 0;
 }
 
 .footer-ul {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    padding-top: 21px;
    
 }
 
@@ -490,27 +493,30 @@ ul {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 21px;
 }
 
 .footer-email-button {
-    width: 570px;
-    height: 87px;
-    margin-left: 94px;
-    margin-top: 55px;
-    margin-right: 215px;
+    padding-top: 56px;
+    margin-right: 216px;
 }
 
 .footer-email {
+    width: 358px;
+    height: 50px;
     color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    width: 358px;
-    height: 50px;
+    display: flex;
+    box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background: #2f303a;
+    border-radius: 4px;
+    margin-right: 12px;
     
 }
 
@@ -522,19 +528,31 @@ ul {
     font-weight: 900;
     font-size: 16px;
     line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
     letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.icon {
+    padding-left: 10px;
 }
 
 .footer-signature {
-    display: block;
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-weight: normal;
     font-size: 12px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.4);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 18px;
+    padding-bottom: 21px;
+    background: #2F303A;
+    margin: 0;
 }
 
 .portfolio-div {
