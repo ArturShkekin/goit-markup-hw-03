@@ -4,44 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Студия</title>
 </head>
 <body>
     <!--Шапка страницы-->
-    <header>
-    <div class="container">
-            <nav class="div-nav">
-                <a href="index.html" class="logo">
-                    <span class="span-logo">Web</span> Studio
-                </a>
-                <ul class="div-nav-ul">
-                    <li class="div-nav-li">
-                        <a href="index.html" class="nav-link-active">Студия</a>
-                    </li>   
-                    <li class="div-nav-li">
-                        <a href="portfolio.html" class="nav-link">Портфолио</a>
+    <header class="page-header">
+        <div class="container page-header">
+                <nav class="div-nav">
+                    <a href="index.html" class="logo">
+                        <span class="span-logo">Web</span> Studio
+                    </a>
+                    <ul class="div-nav-ul">
+                        <li class="div-nav-li">
+                            <a href="index.html" class="nav-link-active">Студия</a>
+                        </li>   
+                        <li class="div-nav-li">
+                            <a href="portfolio.html" class="nav-link">Портфолио</a>
+                        </li>
+                        <li class="div-nav-li">
+                            <a href="index.html" class="nav-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            <div class="div-mail">
+                <ul class="div-mail-ul">
+                    <li class="div-mail-li">
+                        <a href="mailto:info@devstudio.com" class="mail-link">
+                            <img src="./img/envelope1.svg" alt="значек почты" class="mail-img">info@devstudio.com
+                        </a>
                     </li>
-                    <li class="div-nav-li">
-                        <a href="index.html" class="nav-link">Контакты</a>
+                    <li class="div-mail-li">
+                        <a href="tel:+380961111111" class="mail-link">
+                            <img src="./img/Vector2.svg" alt="значек телефона" class="mail-img">+38 096 111 11 11
+                        </a>
                     </li>
                 </ul>
-            </nav>
-        <div>
-            <ul class="div-mail-ul">
-                <li class="div-mail-li">
-                    <a href="mailto:info@devstudio.com" class="mail-link">
-                        <img src="./img/envelope1.svg" alt="значек почты" class="mail-img">info@devstudio.com
-                    </a>
-                </li>
-                <li class="div-mail-li">
-                    <a href="tel:+380961111111" class="mail-link">
-                        <img src="./img/Vector2.svg" alt="значек телефона" class="mail-img">+38 096 111 11 11
-                    </a>
-                </li>
-            </ul>
+            </div>
         </div>
-    </div>
     </header> 
     <!--основная часть-->
     <main>
@@ -285,9 +286,9 @@
     <footer class="container footer-all">
         <div class="div-footer">
             <div class="div-address">
-                <a href="index.html" class="logo-footer"><span class="logo-footer-part">Web</span> Studio</a>
-                    
-                
+                <a href="index.html" class="logo-footer">
+                    <span class="logo-footer-part">Web</span> Studio
+                </a>
                 <address class="footer-address">г.Киев, пр-т Леси Украинки, 26
                     <a href="mailto:info@example.com" class="footer-address-contacts">info@example.com</a>
                     <a href="tel:+380991111111" class="footer-address-contacts">+38 099 111 11 11</a>

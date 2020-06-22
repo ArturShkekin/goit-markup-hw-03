@@ -12,8 +12,7 @@ body {
     font-family: 'Roboto',  sans-serif;
     background: #FFFFFF;
     margin: 0;
-    padding: 0;
-    width: 1600px;
+    /*width: 1600px;*/
 }
 
 a {
@@ -37,10 +36,21 @@ img {
 }
 
 .container {
+    width: 1200px;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+.page-header {
     display: flex;
 }
 
 .logo {
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -50,7 +60,6 @@ img {
     color: #000000;
     padding-top: 24px;
     padding-bottom: 25px;
-    padding-left: 215px;
     margin-right: 85px;
 }
 
@@ -70,16 +79,18 @@ img {
 }
 
 .nav-link {
+    display: inline-block;
     color: #212121;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .div-nav-ul {
     display: flex;
-    padding-top: 32px;
 }
 
 .div-nav-li:not(:last-child) {
@@ -87,11 +98,18 @@ img {
 }
 
 .nav-link-active {
+    display: inline-block;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #2196f3;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.div-mail {
+    display: flex;
 }
 
 .mail-img {
@@ -100,8 +118,6 @@ img {
 
 .div-mail-ul {
     display: flex;
-    padding-top: 32px;
-    padding-right: 215px;
 }
 
 .div-mail-li:not(:last-child) {
@@ -115,6 +131,8 @@ img {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .main-container {
