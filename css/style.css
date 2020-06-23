@@ -12,7 +12,7 @@ body {
     font-family: 'Roboto',  sans-serif;
     background: #FFFFFF;
     margin: 0;
-    /*width: 1600px;*/
+    width: 1600px;
 }
 
 a {
@@ -42,7 +42,6 @@ img {
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
-    
 }
 
 .page-header {
@@ -186,17 +185,14 @@ img {
    margin: 0;
 }
 
-.feature-div {
+ .feature-div {
     display: flex;
-    padding-top: 97px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .feature-ul {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .feature-li:not(:last-child) {
@@ -220,11 +216,6 @@ img {
     color: #212121;
     width: 70px;
     height: 70px;
-    /*padding-top: 25px;
-    padding-right: 100px;
-    padding-bottom: 25px;
-    padding-left: 100px;*/
-    
 }
 
 .feature-title {
@@ -251,10 +242,6 @@ img {
 
 .doing-div {
     display: block;
-    padding-top: 185px;
-    padding-right: 200px;
-    padding-left: 200px;
-    margin-bottom: 24px;
 }
 
 .doing-title {
@@ -266,12 +253,12 @@ img {
     color: #212121;
     margin: 0;
     margin-bottom: 50px;
+    padding-top: 94px;
 }
 
 .doing-ul {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-bottom: 24px;
 }
 
 .doing-li:not(:last-child) {
@@ -302,12 +289,14 @@ img {
     margin: 0;
 }
 
+.our-team {
+    background: #F5F4FA;
+}
+
 .team {
     display: block;
     background: #F5F4FA;
     padding-top: 94px;
-    padding-right: 200px;
-    padding-left: 200px;
 }
 
 .team-title {
@@ -380,8 +369,6 @@ img {
 .our-div {
     display: block;
     padding-top: 94px;
-    padding-right: 200px;
-    padding-left: 200px;
     padding-bottom: 94px;
 }
 
@@ -410,6 +397,7 @@ img {
 .footer-all {
     display: flex;
     flex-direction: column;
+    background: #2f303a;
 }
 
 .div-footer {
@@ -421,7 +409,6 @@ img {
 }
 
 .div-address {
-    padding-left: 214px;
     margin-right: 69px;
 }
 
@@ -519,7 +506,6 @@ img {
 
 .footer-email-button {
     padding-top: 56px;
-    margin-right: 216px;
 }
 
 .footer-email {
