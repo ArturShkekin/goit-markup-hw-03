@@ -312,8 +312,6 @@ img {
 
 .team-ul {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-bottom: 94px;
 }
 
@@ -385,9 +383,6 @@ img {
 
 .our-ul {
     display: flex;
-    padding-right: 15px;
-    padding-left: 15px;
-    
 }
 
 .our-li:not(:last-child) {
@@ -402,18 +397,20 @@ img {
 
 .div-footer {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
     background: #2f303a;
-    padding-bottom: 24px;
+    padding-bottom: 28px;
 }
 
 .div-address {
     margin-right: 69px;
 }
 
+.box-address {
+    padding-right: 15px;
+}
+
 .logo-footer {
-    display: flex;
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
     font-weight: bold;
@@ -443,22 +440,21 @@ img {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 21px;
     letter-spacing: 0.03em;
     padding-top: 10px;
-    width: 231px;
     margin: 0;
 }
   
 .footer-address-contacts {
-    display: block;
+    display: inline-block;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 21px;
     letter-spacing: 0.03em;
-    padding-top: 5px;
+    padding-top: 9px;
 }
 
 .footer-social {
@@ -508,6 +504,11 @@ img {
     padding-top: 56px;
 }
 
+.email-button {
+    display: flex;
+    flex-direction: row;
+}
+
 .footer-email {
     width: 358px;
     height: 50px;
@@ -517,12 +518,15 @@ img {
     font-size: 16px;
     line-height: 30px;
     display: flex;
+    flex-direction: row;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background: #2f303a;
     border-radius: 4px;
     margin-right: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
     
 }
 
@@ -535,6 +539,8 @@ img {
     font-size: 16px;
     line-height: 30px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -552,7 +558,7 @@ img {
     text-align: center;
     font-weight: normal;
     font-size: 12px;
-    line-height: 24px;
+    line-height: 21px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.4);
     padding-top: 18px;
@@ -563,12 +569,8 @@ img {
 
 .portfolio-div {
     display: block;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 93px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 94px;
+    padding-top: 93px;
+    padding-bottom: 94px;
 }
 
 .portfolio-ul-item {
