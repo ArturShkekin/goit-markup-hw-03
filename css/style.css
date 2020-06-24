@@ -44,8 +44,9 @@ img {
     padding-left: 15px;
 }
 
-.page-header {
+.header {
     display: flex;
+    background-color: #FFFFFF;
 }
 
 .logo {
@@ -135,7 +136,7 @@ img {
 }
 
 .main-container {
-    background: rgba(47, 48, 58, 0.8);
+    background-color: rgba(47, 48, 58, 0.8);
 }
 
 .main-title {
@@ -164,20 +165,28 @@ img {
     width: 200px;
     height: 50px;
     background: #2196F3;
-    text-align: center;
+    /*text-align: center;
     align-self: center;
-    align-items: center;
+    align-items: center;*/
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin-top: 30px;
+    /*margin-top: 30px;
     margin-right: 700px;
     margin-bottom: 200px;
-    margin-left: 700px;
+    margin-left: 700px;*/
+    margin: auto;
+    display: flex;
 }
    
 .button:hover,
 .button:focus {
     background: #188ce8;
+}
+
+.feature-s {
+    background-color: #ffffff;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .is-hidden {
@@ -187,8 +196,6 @@ img {
 
  .feature-div {
     display: flex;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .feature-ul {
@@ -240,6 +247,12 @@ img {
     margin: 0;
 }
 
+.doing-s {
+    background-color: #FFFFFF;
+    padding-top: 94px;
+    padding-bottom: 24px;
+}
+
 .doing-div {
     display: block;
 }
@@ -253,12 +266,10 @@ img {
     color: #212121;
     margin: 0;
     margin-bottom: 50px;
-    padding-top: 94px;
 }
 
 .doing-ul {
     display: flex;
-    padding-bottom: 24px;
 }
 
 .doing-li:not(:last-child) {
@@ -290,13 +301,14 @@ img {
 }
 
 .our-team {
-    background: #F5F4FA;
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team {
     display: block;
     background: #F5F4FA;
-    padding-top: 94px;
 }
 
 .team-title {
@@ -312,7 +324,6 @@ img {
 
 .team-ul {
     display: flex;
-    padding-bottom: 94px;
 }
 
 .team-li:not(:last-child) {
@@ -366,8 +377,6 @@ img {
 
 .our-div {
     display: block;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .our-title {
@@ -389,15 +398,14 @@ img {
     margin-right: 30px;
 }
 
-.footer-all {
+.footer {
     display: flex;
     flex-direction: column;
-    background: #2f303a;
+    background-color: #2f303a;
 }
 
 .div-footer {
     display: flex;
-    background: #2f303a;
     padding-bottom: 28px;
 }
 
@@ -563,14 +571,17 @@ img {
     color: rgba(255, 255, 255, 0.4);
     padding-top: 18px;
     padding-bottom: 21px;
-    background: #2F303A;
     margin: 0;
+}
+
+.portfolio {
+    background-color: #ffffff;
+    padding-top: 93px;
+    padding-bottom: 94px;
 }
 
 .portfolio-div {
     display: block;
-    padding-top: 93px;
-    padding-bottom: 94px;
 }
 
 .portfolio-ul-item {
