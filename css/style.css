@@ -138,6 +138,11 @@ img {
     background-color: rgba(47, 48, 58, 0.8);
 }
 
+.main-div {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 .main-title {
     font-weight: 900;
     font-size: 44px;
@@ -146,9 +151,7 @@ img {
     text-transform: uppercase;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 200px;
-    padding-right: 452px;
-    padding-left: 452px;
+    padding-bottom: 30px;
     margin: 0;
 
 }
@@ -405,6 +408,7 @@ img {
 
 .div-footer {
     display: flex;
+    padding-top: 60px;
     padding-bottom: 28px;
 }
 
@@ -424,8 +428,6 @@ img {
     font-size: 22px;
     line-height: 26px;
     letter-spacing: 0.03em;
-    padding-top: 48px;
-    
 }
 
 .logo-footer-part,
@@ -467,7 +469,6 @@ img {
 .footer-social {
     display: flex;
     flex-direction: column;
-    padding-top: 56px;
     margin-right: 94px;
 }
 
@@ -508,7 +509,6 @@ img {
 }
 
 .footer-email-button {
-    padding-top: 56px;
 }
 
 .email-button {
